@@ -32,3 +32,6 @@ We open source the whole stack of uniframe.io, including:
 4. Documentation application:
     - Run `make host-docs` to host documentation application manually
     - Automatic deployment has been set up in Github Action [configuration](https://github.com/uniframe-io/uniframe-docs/tree/main/.github/workflows)    
+
+## License
+All code published in this organization is subject to a Creative Commons Attribution-ShareAlike 4.0 ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). **Please contact info@uniframe.io for any commercial usage**.
