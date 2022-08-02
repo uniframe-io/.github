@@ -26,12 +26,14 @@ We open source the whole stack of uniframe.io, including:
     - Then, run script `./scripts/helm-install-l2.sh` to install other components on EKS including Grafana, prometheus, aws load balancer controller, external DNS, Redis and other EKS plugins 
 2. Backend application
     - Makefile [ci-test](https://github.com/uniframe-io/uniframe-backend/blob/main/Makefile#L8) runs some static testing, unit testing and integration testing.
-    - Automatic deployment has been set up in Github Action [configuration](https://github.com/uniframe-io/uniframe-backend/tree/main/.github/workflows)
+    - Automatic deployment on AWS EKS has been set up in Github Action [configuration](https://github.com/uniframe-io/uniframe-backend/tree/main/.github/workflows)
     - This [section](https://github.com/uniframe-io/uniframe-backend/blob/main/README.md#continue-deployment) has more explanation about back application deployment.
-3. Frontend applicaiton: **TO BE FILLED**
+3. Frontend applicaiton
+    - Automatic deployment on AWS EKS has been set up in Github Action [configuration](https://github.com/uniframe-io/uniframe-frontend/tree/main/.github/workflows)
+    - local deployment: install npm version v15.14.0, then run `yarn install && yarn serve`
 4. Documentation application:
     - Run `make host-docs` to host documentation application manually
     - Automatic deployment has been set up in Github Action [configuration](https://github.com/uniframe-io/uniframe-docs/tree/main/.github/workflows)    
 
 ## License
-All code published in this organization is subject to a Creative Commons Attribution-ShareAlike 4.0 ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). **Please contact info@uniframe.io for any commercial usage**.
+All code published in this organization is subject to a Creative Commons Attribution-ShareAlike 4.0 ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)). **Please inform us via info@uniframe.io for any commercial usage**.
